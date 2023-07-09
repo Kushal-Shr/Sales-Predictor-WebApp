@@ -1,39 +1,43 @@
+## Sales Predictor ML Project
+# Overview
+The Sales Predictor ML Project aims to develop a machine learning model that predicts sales performance based on advertising expenditure on different media channels. The model is trained on a labeled dataset containing historical sales data and corresponding advertising budgets.
 
-# Sales Predictor WebApp using Machine Learning Model
+# Dataset
+The dataset used for training and evaluating the model consists of records representing sales instances and their associated features. The dataset includes the following columns:
 
-This is Machine Learning project for predicting how many sales has been done by advertising the products through TV, radio and newspaper. I also have made an UI using streamlit.
+TV: Advertising budget spent on TV advertisements.
 
+Radio: Advertising budget spent on radio advertisements.
 
-## Authors
+Newspaper: Advertising budget spent on newspaper advertisements.
 
-- [Kushal Shrestha](https://github.com/Kushal-Shr)
+Sales: The corresponding sales volume or revenue generated.
 
+Each record represents a specific time period, such as a week or a month, and the corresponding advertising expenditure and sales data.
 
-## For Data Analysis
+# Model Development
+The project involves the following steps:
 
-- Pandas
+Data Preprocessing: The dataset is cleaned and preprocessed to handle missing values, outliers, and any inconsistencies. Feature scaling or normalization may also be applied as required.
 
-- Matplotlib
+Exploratory Data Analysis: Analyze the relationship between advertising budgets and sales by visualizing the data and identifying any patterns or correlations.
 
-- Seaborn
+Model Selection: Various regression algorithms are considered and evaluated to determine the most suitable model for the task. Common algorithms for this project include linear regression, decision trees, random forests, and support vector regression.
 
+Model Training: The selected model is trained on the preprocessed dataset, using a portion of the data for training and the remaining portion for validation and testing.
 
-## For Machine Learning Model
+Model Evaluation: The trained model is evaluated using appropriate evaluation metrics such as mean squared error (MSE), mean absolute error (MAE), or R-squared. The performance of the model is assessed to determine its effectiveness in predicting sales based on advertising budgets.
+# Further Improvements
+To further enhance the Sales Predictor ML model, consider the following:
 
- - Scikit Learn
+User Interface: Develop a user-friendly interface that allows users to input their information easily and receive predictions in a clear and understandable manner.
 
-    - Train Test Split
-    - Linear Regression
-    - Evaluation
-## For storing the Model
-
-- Pickle
-## For Creating an UI
-
-- Streamlit
 ## Project UI
 
 ![App Screenshot](https://github.com/Kushal-Shr/Sales-Predictor-WebApp/blob/main/Project_UI.png?raw=true)
+
+## Conclusion
+The Sales Predictor ML Project aims to develop a machine learning model that predicts sales performance based on advertising budgets for TV, radio, and newspaper. By following the steps outlined in this README file, you can train and deploy the model for practical use. Remember to continuously evaluate and improve the model to ensure its effectiveness and accuracy.
 
 
 ## 🚀 About Me
